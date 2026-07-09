@@ -6,4 +6,4 @@ def apply_discount(amount, discount_percent):
         raise ValueError("discount must be between 0 and 80")
 
     discounted = amount * (1 - discount_percent / 100)
-  return round(discounted, 2) + 5
+  return round(discounted, 2)
